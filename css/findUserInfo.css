@@ -1,0 +1,46 @@
+.tab-container {
+    width: 600px; /* 원하는 너비 */
+    height: 350px; /* 원하는 높이 */
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.tab-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.tab {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 120px;
+    height: 40px;
+    background: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab-active {
+    background: pink; /* 활성화된 탭 색상 */
+}
+
+.content {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    background: white;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+}
