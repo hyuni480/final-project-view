@@ -130,12 +130,14 @@
 
 #memberEmail {
     width: 191px;
+    height: 99%;
     border: none;
 
 }
 
 #memberAddress,#authKey{
     width: 229px;
+    height: 99%;
     border: none;
 }
 

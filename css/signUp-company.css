@@ -130,12 +130,14 @@
 
 #companyEmail {
     width: 191px;
+    height: 99%;
     border: none;
 
 }
 
 #companyAddress,#authKey, #companyPostNo{
     width: 229px;
+    height: 99%;
     border: none;
 }
 
