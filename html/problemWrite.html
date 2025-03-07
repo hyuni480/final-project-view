@@ -39,9 +39,11 @@
             </div>
 
             <div id="checkPw-public-secret">
-                비밀번호<input type="text">
-                <input type="radio" name="secret-or-public" value="public" checked>공개글
-                <input type="radio" name="secret-or-public" value="secret">비밀글
+                비밀번호<input type="text" id="check-pw">
+                <div id="secretOrPublic">
+                    <input type="radio" name="secret-or-public" value="public" id="publicWrite" checked><label for="publicWrite">공개글</label>
+                    <input type="radio" name="secret-or-public" value="secret" id="secretWrite"><label for="secretWrite">비밀글</label>
+                </div>
             </div>
 
             <div>첨부파일1<input type="file"></div>

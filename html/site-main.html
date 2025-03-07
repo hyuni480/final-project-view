@@ -12,17 +12,7 @@
 
 <body>
 
-    <header class="navbar">
-        <div class="logo">To<span style="color: red; font-weight: bold;">Gether</span></div>
-        <nav>
-            <button class="nav-btn">To 브랜드</button>
-            <button class="nav-btn">Get 개인</button>
-        </nav>
-        <div class="auth-buttons">
-            <button class="login-btn">로그인</button>
-            <button class="signup-btn">회원가입</button>
-        </div>
-    </header>
+
     
     <section class="hero">
         <div class="hero-content">
@@ -31,54 +21,86 @@
     </section>
     
     <section class="purchase-section">
-        <h2>😺개인 공동구매에 참여해보세요😺</h2>
+        <h2 class="main-product-title">😺개인 공동구매에 참여해보세요😺</h2>
         <div class="product-list">
             <div class="product">
                 <img src="../images/produceSample.png" alt="공구 세트">
                 <p class="product-name">공구 세트</p>
-                <p class="price">44,400원 → 39,800원</p>
-                <p class="deadline">7일 12시간 남음</p>
-                <p class="progress">50%</p>
+                <span class="prior-price">44,400원</span>
+                <span class="real-price"> → 39,800원</span>
+
+                <p class="deadline">⏳ 7일 12시간 남음</p>
+                <div class="progress">
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p class="progress-percent">50%</p>
+                </div>
                 <p class="participants">10/20명 참여 중</p>
             </div>
             <div class="product">
                 <img src="../images/produceSample.png" alt="공구 세트">
                 <p class="product-name">공구 세트</p>
-                <p class="price">44,400원 → 39,800원</p>
-                <p class="deadline">7일 12시간 남음</p>
-                <p class="progress">50%</p>
+                <span class="prior-price">44,400원</span>
+                <span class="real-price"> → 39,800원</span>
+                <p class="deadline">⏳ 7일 12시간 남음</p>
+                <div class="progress">
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p class="progress-percent">70%</p>
+                </div>
                 <p class="participants">10/20명 참여 중</p>
             </div>
             <div class="product">
                 <img src="../images/produceSample.png" alt="공구 세트">
                 <p class="product-name">공구 세트</p>
-                <p class="price">44,400원 → 39,800원</p>
-                <p class="deadline">7일 12시간 남음</p>
-                <p class="progress">50%</p>
+                <span class="prior-price">44,400원</span>
+                <span class="real-price"> → 39,800원</span>
+                <p class="deadline">⏳ 7일 12시간 남음</p>
+                <div class="progress">
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p class="progress-percent">100%</p>
+
+                </div>
                 <p class="participants">10/20명 참여 중</p>
             </div>
             <div class="product">
                 <img src="../images/produceSample.png" alt="공구 세트">
                 <p class="product-name">공구 세트</p>
-                <p class="price">44,400원 → 39,800원</p>
-                <p class="deadline">7일 12시간 남음</p>
-                <p class="progress">50%</p>
+                <span class="prior-price">44,400원</span>
+                <span class="real-price"> → 39,800원</span>
+                <p class="deadline">⏳ 7일 12시간 남음</p>
+                <div class="progress">
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p class="progress-percent">10%</p>
+                </div>
                 <p class="participants">10/20명 참여 중</p>
             </div>
             <div class="product">
                 <img src="../images/produceSample.png" alt="공구 세트">
                 <p class="product-name">공구 세트</p>
-                <p class="price">44,400원 → 39,800원</p>
-                <p class="deadline">7일 12시간 남음</p>
-                <p class="progress">50%</p>
+                <span class="prior-price">44,400원</span>
+                <span class="real-price"> → 39,800원</span>
+                <p class="deadline">⏳ 7일 12시간 남음</p>
+                <div class="progress">
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p class="progress-percent">44%</p>
+                </div>
                 <p class="participants">10/20명 참여 중</p>
             </div>
         </div>
     </section>
     
     <section class="process-section">
-        <h3 class="sub-title">이용 프로세스</h3>
-        <h2 class="main-title">공동구매를 쉽고 빠르게 경험해 보세요.</h2>
+        <h3 class="main-title">이용 프로세스</h3>
+        <h2 class="sub-title">공동구매를 쉽고 빠르게 경험해 보세요.</h2>
     
         <div class="info-section">
             <div class="text-content">
@@ -108,19 +130,16 @@
                 <p>📦 개인도! 사업자도! 누구나 공동구매 가능! 🛍️</p>
                 <p>🤔 이렇게 쉬운데, 아직도 안 해보셨나요? 😆</p>
                 <p>💡 더 싸게 사고, 더 많이 팔고 싶다면? 지금 가입하세요! 💥</p>
+                <button class="start-button">공동구매 시작하기</button>
             </div>
             <div class="image-content">
                 <img src="../images/main3.png" alt="손을 모으는 이미지">
             </div>
         </div>
-        
-        <div class="button-container">
-            <button class="start-button">공동구매 시작하기</button>
-        </div>
     </section>
 
     <section class="hot-products">
-        <h2>🔥HOT🔥한 상품들</h2>
+        <h2 class="main-product-title">🔥HOT🔥한 상품들</h2>
         <div class="hot-product-list">
             <div class="hot-product main-product">
                 <span class="hot-rank">1</span>
@@ -128,23 +147,77 @@
                 <p class="product-name">공구 세트</p>
                 <p class="price">44,400원</p>
             </div>
-            <div class="hot-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="hot-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="hot-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="hot-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
+    
+            <div class="hot-product-group">
+                <div class="hot-product">
+                    <img src="../images/produceSample.png" alt="공구 세트">
+                    <p class="product-name">공구 세트</p>
+                    <p class="price">44,400원</p>
+                </div>
+                <div class="hot-product">
+                    <img src="../images/produceSample.png" alt="공구 세트">
+                    <p class="product-name">공구 세트</p>
+                    <p class="price">44,400원</p>
+                </div>
+                <div class="hot-product">
+                    <img src="../images/produceSample.png" alt="공구 세트">
+                    <p class="product-name">공구 세트</p>
+                    <p class="price">44,400원</p>
+                </div>
+                <div class="hot-product">
+                    <img src="../images/produceSample.png" alt="공구 세트">
+                    <p class="product-name">공구 세트</p>
+                    <p class="price">44,400원</p>
+                </div>
+                <div class="hot-product">
+                    <img src="../images/produceSample.png" alt="공구 세트">
+                    <p class="product-name">공구 세트</p>
+                    <p class="price">44,400원</p>
+                </div>
+                <div class="hot-product">
+                    <img src="../images/produceSample.png" alt="공구 세트">
+                    <p class="product-name">공구 세트</p>
+                    <p class="price">44,400원</p>
+                </div>
+
+            </div>
         </div>
     </section>
     
+    
+    
     <section class="new-products">
-        <h2>🆕새로 올라온 상품들🆕</h2>
+        <h2 class="main-product-title">🆕새로 올라온 상품들🆕</h2>
         <div class="new-product-list">
-            <div class="new-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="new-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="new-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="new-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
-            <div class="new-product"><img src="../images/produceSample.png" alt="공구 세트"></div>
+            <div class="new-product">
+                <img src="../images/produceSample.png" alt="공구 세트">
+                <p class="product-name">공구 세트</p>
+                <p class="price">44,400원</p>
+            </div>
+            <div class="new-product">
+                <img src="../images/produceSample.png" alt="공구 세트">
+                <p class="product-name">공구 세트</p>
+                <p class="price">44,400원</p>
+            </div>
+            <div class="new-product">
+                <img src="../images/produceSample.png" alt="공구 세트">
+                <p class="product-name">공구 세트</p>
+                <p class="price">44,400원</p>
+            </div>
+            <div class="new-product">
+                <img src="../images/produceSample.png" alt="공구 세트">
+                <p class="product-name">공구 세트</p>
+                <p class="price">44,400원</p>
+            </div>
+            <div class="new-product">
+                <img src="../images/produceSample.png" alt="공구 세트">
+                <p class="product-name">공구 세트</p>
+                <p class="price">44,400원</p>
+            </div>
         </div>
     </section>
+
+    <script src="../js/site-main.js"></script>
 
 </body>
 
